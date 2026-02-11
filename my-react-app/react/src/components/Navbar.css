@@ -1,0 +1,19 @@
+.nav{
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+}
+
+.nav-btn{
+  background: #cfcfcf;
+  padding: 10px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  border: 1px solid #b8b8b8;
+}
+
+.nav-btn:hover{
+  background: #b1b1b1;
+}

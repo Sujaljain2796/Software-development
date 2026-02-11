@@ -1,0 +1,65 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar spacing fix */
+section {
+  padding: 100px 0;
+}
+
+/* Hero Section Gradient Background */
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+}
+
+/* Section Titles */
+section h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Card Hover Effect (Projects) */
+.MuiCard-root {
+  transition: all 0.3s ease !important;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Buttons Glow Effect */
+.btn-warning {
+  box-shadow: 0 0 10px rgba(255, 193, 7, 0.6);
+}
+
+.btn-warning:hover {
+  box-shadow: 0 0 20px rgba(255, 193, 7, 0.9);
+}
+
+/* Dark Section (Contact) */
+#contact {
+  background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+/* Skill bars spacing */
+.MuiLinearProgress-root {
+  height: 10px !important;
+  border-radius: 5px;
+}
+
+/* Make text look smoother */
+body {
+  background-color: #f5f7fa;
+}
