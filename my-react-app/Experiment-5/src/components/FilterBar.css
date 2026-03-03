@@ -1,0 +1,19 @@
+.filter-bar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.filter-bar button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  background: #334155;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.filter-bar button:hover {
+  background: #475569;
+}
