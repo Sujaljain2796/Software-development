@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.login-bg {
+  height: 100vh;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+}
+
+.login-card {
+  width: 350px;
+  border-radius: 15px;
+  background: #1e293b;
+  color: white;
+}
+
+button {
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
