@@ -1,0 +1,74 @@
+/* Full page center */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Card */
+.login-card {
+  background: #111827;
+  padding: 40px;
+  border-radius: 16px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+/* Title */
+.login-card h2 {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #9ca3af;
+  margin-bottom: 25px;
+}
+
+/* Inputs */
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #1f2937;
+  color: white;
+  outline: none;
+  transition: 0.3s;
+}
+
+.login-card input:focus {
+  border: 1px solid #6366f1;
+  box-shadow: 0 0 5px #6366f1;
+}
+
+/* Button */
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #6366f1;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-card button:hover {
+  background: #4f46e5;
+  transform: scale(1.03);
+}
+
+/* Hint text */
+.hint {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #9ca3af;
+}
